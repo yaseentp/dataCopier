@@ -1,0 +1,1 @@
+docker run -it --name data-copier --rm --network dataCopier-nw -v C:\Users\Dell\Research\data\retail_db_json:/retail_db_josn -e BASE_DIR=/retail_db_json -e DB_HOST=0ab192048f24 -e DB_PORT=5432 -e DB_NAME=retail_db -e DB_USER=retail_user -e DB_PASS=itversity data-copier bash
